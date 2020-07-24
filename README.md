@@ -2,7 +2,7 @@
 
 A standalone web gallery that does not use lightboxes
 
-[https://jereviendrai.github.io/bildli/example.html](Demo)
+[Demo](https://jereviendrai.github.io/bildli/example.html)
 
 ## Usage
 
