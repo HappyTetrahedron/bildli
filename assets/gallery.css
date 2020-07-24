@@ -1,0 +1,234 @@
+/*
+	Copyright 2020, Aline Abler
+
+    This file is part of Bildli Gallery.
+
+    Bildli Gallery is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Bildli Gallery is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Bildli Gallery.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+.col {
+    float: left;
+}
+
+@media only screen and (min-width: 1500px)
+{
+    .col {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1500px)
+{
+    .col {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 1100px)
+{
+    .col {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 900px)
+{
+    .col {
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .col {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .col {
+        width: 100%;
+    }
+}
+
+.gallery-image {
+    width: 100%;
+    vertical-align: top;
+}
+
+.gallery-image-div {
+    padding: 4px;
+    width: calc(100% - 8px);
+    transition: width 0.5s, margin 0.5s;
+}
+
+div.gallery-title-wrapper, div.gallery-description-wrapper {
+    position: relative;
+    height: 0px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+div.gallery-description-wrapper {
+    margin-top: -70px;
+    margin-bottom: 70px;
+    pointer-events: none;
+}
+
+div.gallery-description-wrapper span {
+    height: 0px;
+}
+
+div.gallery-image-div:hover div.gallery-title-wrapper {
+    opacity: 1;
+}
+
+div.gallery-image-div.expand div.gallery-title-wrapper, div.gallery-image-div.expand-little div.gallery-title-wrapper {
+    opacity: 1;
+}
+
+div.gallery-image-div.expand div.gallery-description-wrapper, div.gallery-image-div.expand-little div.gallery-description-wrapper {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+div.gallery-image-div.expand div.gallery-description-wrapper span, div.gallery-image-div.expand-little div.gallery-description-wrapper span {
+    height: auto;
+}
+
+div.gallery-title {
+    pointer-events: none;
+}
+
+div.gallery-description, div.gallery-title {
+    background-color: rgba(30, 30, 30, 0.3);
+    color: #F8F8F8;
+}
+
+div.gallery-description a {
+    color: #F8F8F8;
+}
+
+div.gallery-description.dark, div.gallery-title.dark, div.gallery-description.dark a {
+    color: black;
+}
+
+div.gallery-description {
+    height: 70px;
+}
+
+div.gallery-title {
+    height: 40px;
+}
+
+div.gallery-description span {
+    display: block;
+}
+
+span.gallery-title {
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+span.gallery-close {
+    display: block;
+    font-size: larger;
+    margin-top: -20px;
+    padding-right: 15px;
+    font-weight: bold;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+div.gallery-image-div.expand span.gallery-close, div.gallery-image-div.expand-little span.gallery-close {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+span.gallery-description {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 80%;
+    float: left;
+}
+
+span.gallery-info {
+    text-align: right;
+    font-size: 0.6em;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+span.gallery-date {
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+.expand-little {
+    width: calc(200% - 8px);
+    z-index: 90;
+}
+
+.expand {
+    width: calc(300% - 8px);
+    z-index: 90;
+}
+
+@media only screen and (max-width: 700px) {
+    .expand {
+        width: calc(200% - 8px);
+        z-index: 90;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .expand, .expand-little {
+        width: calc(100% - 8px);
+        z-index: 90;
+    }
+}
+
+.col-right .expand-little {
+    margin-left: -100%;
+}
+
+.col-center .expand {
+    margin-left: -100%;
+}
+
+.col-right .expand {
+    margin-left: -200%;
+}
+
+@media only screen and (max-width: 700px) {
+    .col-right .expand {
+        margin-left: -100%;
+    }
+}
+
+.push-block {
+    transition: height 0.5s;
+    pointer-events: none;
+}
+
+#imgA {
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
