@@ -23,7 +23,7 @@ var activePushBlocks = [];
 var numCols = getColumnCountForWidth(window.innerWidth);
 
 var images = []
-fetch("assets/images.json")
+fetch("images.json")
 .then(response => response.json())
 .then(imageList => {
     images = imageList;
