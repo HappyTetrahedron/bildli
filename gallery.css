@@ -120,6 +120,10 @@ div.gallery-description a {
     color: #F8F8F8;
 }
 
+div.gallery-description.dark, div.gallery-title.dark {
+    background-color: rgba(230, 230, 230, 0.3);
+}
+
 div.gallery-description.dark, div.gallery-title.dark, div.gallery-description.dark a {
     color: black;
 }
