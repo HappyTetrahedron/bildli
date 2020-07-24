@@ -4,7 +4,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-01",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -12,7 +12,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-02",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -20,7 +20,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-03",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -28,7 +28,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-04",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -36,7 +36,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-05",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -44,7 +44,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-07",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -52,7 +52,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-06",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -60,7 +60,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-08",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -68,7 +68,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-09",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -76,7 +76,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-10",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -84,7 +84,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-13",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -92,7 +92,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-11",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -100,7 +100,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-12",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -108,7 +108,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-14",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -116,7 +116,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-15",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   },
   {
@@ -124,7 +124,7 @@
     "desc": "This is an example image.",
     "title": "Example Image",
     "slug": "example-16",
-    "info": "<a href=\"placekitten.com\">placekitten</a>",
+    "info": "<a href=\"https://placekitten.com\">placekitten</a>",
     "date": "2020-06-27"
   }
 ]
