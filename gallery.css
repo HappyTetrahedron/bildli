@@ -24,32 +24,26 @@
 @media only screen and (min-width: 1500px)
 {
     .col {
-        width: 300px;
+        width: 375px;
     }
 }
 
 @media only screen and (max-width: 1500px)
 {
     .col {
-        width: 20%;
-    }
-}
-
-@media only screen and (max-width: 1100px)
-{
-    .col {
         width: 25%;
     }
 }
 
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 1200px)
 {
     .col {
         width: 33%;
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px)
+{
     .col {
         width: 50%;
     }
@@ -193,7 +187,7 @@ span.gallery-date {
     z-index: 90;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     .expand {
         width: calc(200% - 8px);
         z-index: 90;
@@ -219,7 +213,7 @@ span.gallery-date {
     margin-left: -200%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     .col-right .expand {
         margin-left: -100%;
     }

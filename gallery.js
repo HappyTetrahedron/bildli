@@ -165,10 +165,9 @@ function checkResize() {
 
 function getColumnCountForWidth(width) {
     var newColumns = width < 500 ? 1 : 
-        width < 700 ? 2 :
-        width < 900 ? 3 :
-        width < 1100 ? 4 :
-        5;
+        width < 800 ? 2 :
+        width < 1200 ? 3 :
+        4;
     return newColumns;
 }
 
